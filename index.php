@@ -9,7 +9,7 @@
         <select name="nurse_id">
             <?php
             // Подключение к базе данных
-            $servername = "127.0.0.1";
+            $servername = "127.0.0.1:3306";
             $username = "root";
             $password = "password";
             $dbname = "nurses";

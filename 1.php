@@ -2,7 +2,7 @@
     if (isset($_POST['submit'])) {
         $selected_nurse_id = $_POST['nurse_id'];
 
-        $servername = "127.0.0.1";
+        $servername = "localhost";
         $username = "root";
         $password = "password";
         $dbname = "nurses";

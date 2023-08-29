@@ -11,7 +11,7 @@
             // Подключение к базе данных
             $servername = "localhost";
             $username = "root";
-            $password = "";
+            $password = "password";
             $dbname = "nurses";
 
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -42,7 +42,7 @@
 
             $servername = "localhost";
             $username = "root";
-            $password = "";
+            $password = "password";
             $dbname = "nurses";
 
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -73,7 +73,7 @@
             <?php
             $servername = "localhost";
             $username = "root";
-            $password = "";
+            $password = "password";
             $dbname = "nurses";
 
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

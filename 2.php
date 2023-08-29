@@ -5,7 +5,7 @@
 
         $servername = "localhost";
         $username = "root";
-        $password = "";
+        $password = "password";
         $dbname = "nurses";
         $selected_department_id = $_POST['department_id'];
 

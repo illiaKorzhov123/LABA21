@@ -2,9 +2,9 @@
     if (isset($_POST['submit'])) {
         $selected_nurse_id = $_POST['nurse_id'];
 
-        $servername = "localhost";
+        $servername = "127.0.0.1";
         $username = "root";
-        $password = "";
+        $password = "password";
         $dbname = "nurses";
 
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
